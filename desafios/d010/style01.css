@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'android';
+    src: url(fontes/idroid.otf) format(opentype);
+
+}
+
+
+
+/*ABRA O SITE MOCKFLOW!!!!!!!*/
+
+
+/*
+body {
+    margin: 0px;
+    background-color: rgba(92, 187, 116, 0.87);
+}
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to top,rgba(0, 90, 0, 0.863), rgba(158, 224, 158, 0.884));
+    padding: 5px;
+    box-shadow: 1px 3px 10px rgba(35, 82, 26, 0.89);
+}
+
+nav {
+    text-align: left;
+    
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav > a:hover {
+    background-color: aliceblue;
+    color: black;
+    border-radius: 2px;
+}
+
+span {
+    color: white;
+    text-align: justify;
+    text-align: center;
+    margin: 3px;
+}
+
+span > h1 {
+    margin: 0px;
+}
+
+span > p {
+    width: 400px;
+    margin: 30px auto;
+}
+
+main {
+    background-color: white;
+    width: 900px;
+    text-align: justify;
+    margin: 0px auto;
+    padding: 15px;
+    box-shadow: 1px 3px 10px rgba(5, 102, 5, 0.726);
+
+}
+
+main > h1,h2 {
+    font-family: 'android';
+    color: green;
+    font-weight: 100;
+    background-image: linear-gradient(to right, rgba(90, 247, 90, 0.685), rgba(80, 80, 80, 0.521), white);
+    padding: 3px;
+}
+
+div.mais {
+    background-color: rgba(106, 241, 163, 0.747);
+    border-radius: 5px;
+}
+
+div > h3 {
+    background-color: green;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+} 
+*/

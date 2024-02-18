@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Flexiveis</title>
+</head>
+<body>
+    <h1>Mostrando Minhas Imgens</h1>
+    <h2>Imagem Dinamica</h2>
+    <p>Tente abrir em dispositivos diferentes</p>
+
+    <picture>
+        <!--Se a tela for grande, vai abrir a imagem G, mas se a tela for menor que 1200 vai abrir a foto M A ORDEM TEM QUE SER OBEDECIDA-->
+        <source media="(max-width: 750px)" srcset="imagens/paisagem-p.png">
+        <source media="(max-width: 1200px)" srcset="imagens/paisagem-m.png">
+        <img src="imagens/paisagem-g.png" alt="Imagem flexivel">
+    </picture>
+
+    <h1>Reproduzindo Audios</h1>
+    <p>Reproduzindo audio em HTML</p>
+    <!--<audio src="audio/El Billete - Edgar Lopez and Quincas Moreira.mp3" controls autoplay></audio> -->
+    <audio preload="metadata" controls loop>
+        <source src="audio/El Billete - Edgar Lopez and Quincas Moreira.mp3" type="audio/mpeg">
+        <source src="" type="audio/wav">
+        <source src="" type="audio/ogg">
+        <p>Infelimente seu dispositivo não consegue reproduzir o audio. <a href="audio/El Billete - Edgar Lopez and Quincas Moreira.mp3">Clique aqui</a> para baixar o audio.</p>
+    </audio>
+
+    <h2>Videos aula 11.4</h2>
+    
+
+</body>
+</html>
