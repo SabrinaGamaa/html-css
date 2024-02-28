@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
+* {
+    margin: 0px;
+    font-family:var(--fonte1);
+}
+
+.menu {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 30px;
+}
+
+.menu > h1 {
+    font-size: 7em;
+    padding-top: 40px;
+}
+
+.menu > p {
+    padding: 20px 0px;
+}
+
+.menu > p > a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu > p > a:hover {
+    text-decoration: underline;
+}
+
+main {
+    font-size: 2em;
+    
+}
+
+.normal {
+    margin: 40px 0px 40px 40px;
+    width: 700px;
+    padding: 5px;
+}
+
+.imagem {
+    background-size: 100% 100%;
+    height: 98vh;
+    background-attachment: fixed;   
+    padding: 40px;
+}
+
+.segundo {
+    background-color: rgba(0, 0, 0, 0.514);
+    color: white;
+    padding: 5px;
+    width: 700px;
+}
+
+footer {
+    font-family: var(--fonte3);
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 1em;
+}
+footer > p > a {
+    color: white;
+    text-decoration: none;
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
+}
