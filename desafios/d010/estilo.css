@@ -1,0 +1,52 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+    font-family: 'MinhaFonte';
+    src: url(fontes/idroid.otf);
+
+}
+.cab {
+    color: white;
+    background: linear-gradient(to bottom, rgb(76, 207, 76), rgb(9, 85, 9));
+    text-align: center;
+}
+
+.cab h1 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-shadow: 1px, 1px, 3px, rgba(0, 0, 0, 0.562);
+}
+
+.cab p {
+    text-align: 50%;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    padding-bottom: 20px;
+}
+
+.linkCab {
+    border: 2px solid red;
+    text-align: start;
+    padding: 10px;
+}
+
+.linkCab a {
+    margin: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.linkCab a:hover {
+    background-color: white;
+    padding: 9px;
+    color: black;
+    border-radius: 10px;
+    text-decoration: underline;
+}
+
+body {
+    background-color: rgba(90, 168, 129, 0.74);
+}
