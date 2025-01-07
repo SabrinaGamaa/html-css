@@ -1,52 +1,49 @@
 * {
-    margin: 0px;
-    padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
 }
 
-@font-face {
-    font-family: 'MinhaFonte';
-    src: url(fontes/idroid.otf);
-
-}
-.cab {
-    color: white;
-    background: linear-gradient(to bottom, rgb(76, 207, 76), rgb(9, 85, 9));
-    text-align: center;
-}
-
-.cab h1 {
+header {
     padding-top: 30px;
-    padding-bottom: 20px;
-    text-shadow: 1px, 1px, 3px, rgba(0, 0, 0, 0.562);
-}
-
-.cab p {
-    text-align: 50%;
-    text-shadow: 2px 2px 2px rgb(0, 0, 0);
-    padding-bottom: 20px;
-}
-
-.linkCab {
-    border: 2px solid red;
-    text-align: start;
-    padding: 10px;
-}
-
-.linkCab a {
-    margin: 5px;
-    text-decoration: none;
+    text-align: center;
+    background: linear-gradient(to bottom, rgb(118, 255, 118), rgb(41, 102, 49));
     color: white;
 }
 
-.linkCab a:hover {
+header h1 {
+
+    padding-bottom: 20px;
+}
+
+header p {
+    padding-bottom: 25px;
+}
+
+nav {
+    background-color: rgb(41, 102, 49);
+    padding: 7px;
+}
+
+nav a {
+    color: white;
+    text-decoration: None;
+    margin-right: 7px;
+}
+
+nav a:hover {
+    background-color: rgb(90, 179, 90);
+    padding: 7px;
+    border-radius: 8px;
+}
+
+main {
+    width: 700px;
+    margin: auto;
+    border: 1px solid red;
     background-color: white;
-    padding: 9px;
-    color: black;
-    border-radius: 10px;
-    text-decoration: underline;
 }
 
 body {
-    background-color: rgba(90, 168, 129, 0.74);
+    background-color: rgb(146, 206, 146);
 }
