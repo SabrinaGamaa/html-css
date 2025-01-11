@@ -42,18 +42,20 @@ main {
     width: 70px;
     border-radius: 50%;
     box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.644);
+    box-sizing: border-box;
 }
 
 .redes-sociais img:hover{
-    border: 1px solid white;
+    border: 1px solid rgba(255, 255, 255, 0.623);
     transform: translateX(-8px);
+    transition: transform 0.5s, border 0.8s;
 }
 
 iframe#tela {
     position: absolute;
-    top: 80px;
+    top: 85px;
     left: 23px;
-    width: 278px;
-    height: 490px;
+    width: 276px;
+    height: 487px;
     
 }
