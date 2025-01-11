@@ -8,3 +8,6 @@ body {
     background-color: beige;
 }
 
+iframe {
+    border: 1px solid red;
+}
