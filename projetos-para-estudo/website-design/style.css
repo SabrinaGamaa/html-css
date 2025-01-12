@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Sarala', Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+    font-family: 'Titulo';
+    src: url(fontes/Jersey10-Regular.ttf);
+}
+
+:root {
+    --cor-01: #000016;
+    --cor-02: #282c50;
+    --cor-03: #5b5897;
+    --cor-04: #9d8cea;
+    --cor-05: #edc5ff;
+}
+
+header {
+    background: linear-gradient(to left, var(--cor-04), var(--cor-02));
+    box-shadow: 0px 2px 7px #282c50;
+    border-bottom: 2px solid #726faf;
+    padding-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+header img {
+    width: 80px;
+    border-radius: 50%;
+    margin-left: 30px;
+    box-shadow: 0px 0px 10px var(--cor-01);
+}
+
+.menu{
+    margin: auto 10px;
+    max-width: 700px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: var(--cor-05);
+    font-size: 1.2em;
+    margin-right: 30px;
+    text-shadow: 2px 4px 5px var(--cor-01);
+}
+
+header a:hover {
+    background-color: #6f77bb93;
+    box-shadow: 1px 2px 7px #0000168c;
+    padding: 4px;
+    border-radius: 5px;
+    color: var(--cor-05);
+}
+
+body {
+    background: linear-gradient(to left, var(--cor-04), var(--cor-02));
+    min-width: 610px;
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+}
+
+main div.rol-1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+div.capa {
+    margin: auto;
+}
+
+div.capa h1 {
+    color: #cabffc;
+    font-size: 120px;
+    font-family: 'Titulo', Arial, Helvetica, sans-serif;
+}
+
+div.capa p {
+    color: #cabffc;
+    font-size: 22px;
+    padding: 15px 0px 35px 0px;
+}
+
+div.capa a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-size: 22px;
+    color: #24233b;
+    background-color: #7e7ace;
+    border-radius: 12px;
+    padding: 14px 25px;
+    box-shadow: 1px 2px 10px #000016e3;
+}
+
+div.capa a:hover {
+    background-color: #6562a7;
+    color: #181727;
+}
+
+main img {
+    margin: auto;
+    max-width: 250px;
+    box-shadow: 0px 0px 10px black;
+    margin-top: 20px;
+    background-color: #5b5897;
+    border: 2px solid pink;
+}
+
+
+div.rol-2 {
+    text-align: center;
+    color: white;
+}
+
+div.rol-2 li {
+    list-style: '\✔\000A0\000A0';
+    list-style-position: inside;
+    margin: 15px 0px;
+    text-shadow: 1px 1px 7px #000016c0;
+    font-size: 1.1em;
+}
+
+div.rol-2 h2 {
+    font-family: 'Righteous', Arial, Helvetica, sans-serif;
+    font-size: 1.6em;
+    font-weight: normal;
+    border-top: 1px solid var(--cor-02);
+    padding-top: 30px;
+    display: flex;
+    justify-self: center;
+}
+
+footer {
+    border-top: 2px solid #726faf;
+    box-shadow: 0px -3px 6px #000016c2;
+    background-color: #000016;
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.7em;
+}
